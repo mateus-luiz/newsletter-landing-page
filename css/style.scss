@@ -7,36 +7,39 @@ body{
     height: 100vh;
     margin: 0;
     padding: 0;
-    background-color: darkcyan;
-    color: white;
+    background-color: #EFEAD8;
     font-family: $primary-font;
     position: relative;
 }
 
 header{
-    background-color: #018181;
-    padding: 10px;
+    background-color: #CDC2AE;
+    padding: 3px;
     margin: 0;
     
     a{
         display: flex;
         justify-content: center;
+        width: 48px;
+        margin: 0 auto;
     }
 }
 
 main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     position: absolute;
-    top: 25%;
-    left: 25%;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
 
     h1{
         font-size: 3em;
+        font-weight: 400;
         text-align: center;
-        color: coral;
-        text-shadow: 2px 3px 5px #00000E;
+        text-shadow: 1px 1px 1px black;
     }
 
     p{

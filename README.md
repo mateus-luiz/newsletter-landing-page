@@ -1,4 +1,4 @@
-# newsletter-landing-page
+# Newsletter Page
 
 https://mateus-luiz.github.io/newsletter-landing-page/
 
